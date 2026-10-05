@@ -2,7 +2,6 @@
 
 let a =5;
 let b = '6';
-
 console.log(a+b);
 
 JavaScrpt Type Coercion Rules; 
@@ -17,7 +16,14 @@ Trying to compile this code will result in error.
 let a: number = 5;
 let b: number = '6';
 console.log(a+b);
-
 */
 
+let a: number = 5;
+let b: number = 6;
+console.log(a+b);
+
+/*
+
+This will appropriately yield 11
+*/
 
