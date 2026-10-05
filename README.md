@@ -39,10 +39,11 @@ interface User {
 
 - JavaScript's implementation of OOP is limited.
 - TS was created as an added layer ontop of JS that adds more functionality.
+
 - OOP Review:
-  -- **Encapsulation** - (Information Hiding)
-  --- Data is put in a container-like Class to prevent anything outside that container from viewing/modifying the data.
-  --- Access the data
+  - **Encapsulation** - (Information Hiding)
+    - Data is put in a container-like Class to prevent anything outside that container from viewing/modifying the data.
+    - Access the data
 
 ## Chapter 2:
 
