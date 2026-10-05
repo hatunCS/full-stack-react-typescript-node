@@ -6,6 +6,8 @@ The following Repo contains my workthrough of the textbook including my own pers
 
 ## Chapter 1 - TypeScript:
 
+### Dynamic vs. Static Typing
+
 - By default, TS has the strictest type checks enabled. Example disable command:
 
 ```typescript
@@ -31,6 +33,7 @@ interface User {
 
 - A contract is a type declaration that defines what properties, property-types, and methods an object must have.
 - Contracts don't exist at runtime- it only serves as a guideline at compiling for types.
+- Static typing removes ambiguity from code (both to compiler and other devs).
 
 ## Chapter 2:
 
