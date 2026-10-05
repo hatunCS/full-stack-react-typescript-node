@@ -12,6 +12,26 @@ The following Repo contains my workthrough of the textbook including my own pers
 tsc test-age.ts --noImplicitAny false
 ```
 
+- Disable strict type enforcement and trying to add a string and integer will concatenate.'
+- Declare a variable's type:
+
+```typescript
+let a: number = 5;
+```
+
+- Leaving an undefined variable will default to false.'
+- Interface in TypeScript is a "contract". Example:
+
+```typescript
+interface User {
+  name: string;
+  age: number;
+}
+```
+
+- A contract is a type declaration that defines what properties, property-types, and methods an object must have.
+- Contracts don't exist at runtime- it only serves as a guideline at compiling for types.
+
 ## Chapter 2:
 
 ## Chapter 3:
