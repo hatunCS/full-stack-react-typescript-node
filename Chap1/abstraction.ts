@@ -28,3 +28,9 @@ class Person implements User { //'implement' keyword tells TS that 'Person' defi
 
 const john: User = new Person("John", 15);
 john.canDrive();
+
+/*
+Output is the same as the 'canDrive' function from the previous test-age.ts example.
+Difference is the implementation is decoupled from its signature.
+
+*/

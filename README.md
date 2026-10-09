@@ -137,7 +137,24 @@ class Cat implements Animal {
 
 ### Inheritance
 
-define
+- Allows a new class (child/subclass) to inherit attributes and methods from an existing class (parent/superclass)
+- Promotes Code Reusability without having to rewrite code from scratch.
+- Extensibility: A child class can add more logic to the base features inherited from its parent.
+- Method Overriding: Child class can change implementation of an inherited method to fit its specific needs.
+
+- **Class** is a type that stores a related set of fields and methods which act on those fields. It acts as a blueprint for creating objects (but is not an object itself).
+
+- **Prototypical Inheritance** - In JS, every instance of a specific type shares the same instance of a single core object (The prototype). Any fields/methods created on the prototype are accessible across the various instances of that object. (Saves resources like memory, but not as flexible as TS inheritance).
+- An object inherits properties and methods directly from another object through a hidden linking object called a prototype.
+- In TS, Classes can inherit from other classes, interfaces, and abstract classes making it more flexible with inheritance than JavaScript- more ways to reuse code.
+  -Prototypical Inheritance allows you to modify objects without having to reinstantiate objects created off of it. Additionally, it saves memory because methods live only once in the prototype instead of it being copied to each instance.
+
+### Polymorphism
+
+- Allows objects/methods to behave differently depending on the context.
+- You can write a general method which can be overwritten per subclass.
+- JS supports polymorphism through: dynamic typing, prototype chain, and class inheritance.
+- JS lacks compile-time enforcement (If an object is missing a required method, you won't find out until runtime.) --> TS enforces compile-time safety so you can identify type constraints mismatches before runtime. z
 
 ## Chapter 2:
 
