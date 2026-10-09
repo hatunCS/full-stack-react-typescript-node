@@ -156,7 +156,41 @@ class Cat implements Animal {
 - JS supports polymorphism through: dynamic typing, prototype chain, and class inheritance.
 - JS lacks compile-time enforcement (If an object is missing a required method, you won't find out until runtime.) --> TS enforces compile-time safety so you can identify type constraints mismatches before runtime. z
 
-## Chapter 2:
+## 2: TypeScript (Cont'd)
+
+- **Types** are a reusable set of rules that describes the shape of a value.
+- Can define fields and method signatures.
+- Using a 'type' describes what its objects may look like (The object is an example of the type- with specific field values).
+
+- JS Types (numbers, strings, Booleans, arrays, etc) are NOT explicitly set in JavaScript at declaration. (dynamic)
+- Types are inferred at runtime based on assigned values.
+
+```javascript
+favoriteNumber = 5;
+favoriteNumber = "five";
+```
+
+- TS employs Static + Structural Typing (Duck Typing)
+- TS allows you to create custom types (in addition to the existing types in JS) which describes the shape of an object.
+
+- The "scripts" section in package.json allows you to add terminal commands to run various tasks - made runnable by npm.
+
+### TypeScript Types
+
+- **any**: Opts a field out of static typing allowing its type to be set and reset. The compiler will NOT check its type. (Avoid using when possible).
+- Any CAN be useful in large-scale applications like web service API calls where data is not controlled by you or the data's schema changes frequently.
+
+- **unknown**: Similar to "any", a variable's type can be undefined, set, and reset.
+- Most operations are restricted until a type is declared.
+- can impose a conditional tree based on the assigned type of an unknown variable during runtime.
+- More cumbersome but much safer.
+
+- **Intersection Type**:
+- Recap: Typescript uses Structural (not nominal) typing.
+- Structural typing allows intersection types.
+- Intersection types - allows developer to create new types by merging ALL the fields of multiple types together.
+
+- **Union Type**:
 
 ## Chapter 3:
 
